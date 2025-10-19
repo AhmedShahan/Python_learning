@@ -89,13 +89,28 @@
 ########################################################
 
 ## float,str, bool ----> int
-float_value=3.9416
-string_value="This is string"
+# float_value=3.9416
+# string_value="This is string"
+# string_value2="10"
+# bool_value=True
+
+# print(int(float_value))
+
+# # print(int(string_value))
+# print(int(string_value2))
+# print(int(bool_value))
+
+########################################################
+# int, str, bool ---> float
+
+int_number=10
+# string_value="This is string"
 string_value2="10"
+string_value3="10.11"
 bool_value=True
 
-print(int(float_value))
-
-# print(int(string_value))
-print(int(string_value2))
-print(int(bool_value))
+print(float(int_number))
+# print(float(string_value))
+print(float(string_value2))
+print(float(string_value3))
+print(float(bool_value))
