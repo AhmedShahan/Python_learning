@@ -69,18 +69,33 @@
 
 ## str ---> int, float, bool
 
-string_1="This is String"
-string_2="10"
-string_3="10.14"
-string_4="True"
+# string_1="This is String"
+# string_2="10"
+# string_3="10.14"
+# string_4="True"
 
-list_value=str([1,2,3,4,5])
+# list_value=str([1,2,3,4,5])
 
-tuple_value=str(("Apple","Banala","apple","mango"))
-set_value=str(("Apple","Banala","apple","mango"))
+# tuple_value=str(("Apple","Banala","apple","mango"))
+# set_value=str(("Apple","Banala","apple","mango"))
 
-print(int(string_2))
-print(float(string_3))
-print(bool(string_4))
-print(bool(string_4))
-print(list(tuple_value))
+# print(int(string_2))
+# print(float(string_3))
+# print(bool(string_4))
+# print(bool(string_4))
+# print(list(tuple_value))
+
+
+########################################################
+
+## float,str, bool ----> int
+float_value=3.9416
+string_value="This is string"
+string_value2="10"
+bool_value=True
+
+print(int(float_value))
+
+# print(int(string_value))
+print(int(string_value2))
+print(int(bool_value))
