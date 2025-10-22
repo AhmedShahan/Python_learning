@@ -23,5 +23,9 @@
 ##############################################################
 
 
-a,b=input("Enter Numbers: ").split()
-print(a,b)
+# a,b=input("Enter Numbers: ").split()
+# print(a,b)
+##### Cannot take more then 2
+
+a=input("Enter Numbers: ").split()
+print(type(a))
