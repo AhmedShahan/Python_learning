@@ -21,10 +21,13 @@ OR logic on (0,1) (1,1) ==> 11  so output will be 3
 '''
 
 
-# print(not(x))
+# print(~x)
 '''
 x---> 2 so boolean (x) -- True    so not(true) ===> False
 '''
 
-print(x^y)
+# print(x^y)
+
+# print(x<<2)
+print(x>>2)
 
